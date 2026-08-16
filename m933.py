@@ -70,4 +70,4 @@ while d:
              d.append(v)
 print(max_path_length)
 for i in range(p+q+1,p+q+r+1):
-     print(signal[i])
+     print(signal[i],end=' ')
