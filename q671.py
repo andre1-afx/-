@@ -18,7 +18,7 @@ while lo<hi:
         hi=mid
     else:
         lo=mid+1
-if lo>=L:
+if lo>=L and lo<=R:
     print(lo)
 elif lo<L :
     print(L)
