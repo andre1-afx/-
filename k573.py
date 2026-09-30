@@ -15,7 +15,7 @@ def pandemic(a,b,people,round,K):
     count=people
     curr=deque()
     
-    while  round<K:
+    while  round<=K:
             
             while new_patent:
                 u=new_patent.popleft()
