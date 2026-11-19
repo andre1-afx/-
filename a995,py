@@ -1,0 +1,15 @@
+import sys
+
+for line in sys.stdin:
+    line = line.strip()
+    if not line:            # 跳過空行
+        continue
+    s = float(line)
+    # 這裡算 r1 ~ r4 並輸出
+    #r1：1 個圓
+
+    r1=s*3**0.5/2
+    r2=s*3**0.5/(2+3**0.5)
+    r3=3**0.5/4*s
+    r4=(6*7**0.5-7*3**0.5)/10*s
+    print(f"{r1:.10f} {r2:.10f} {r3:.10f} {r4:.10f}" )
